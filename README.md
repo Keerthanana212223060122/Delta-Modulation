@@ -10,8 +10,7 @@ To perform Delta-Modulation using python
 Python IDE with Numpy and Scipy
 
 ### PROGRAM:
-
-python
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt
@@ -26,7 +25,7 @@ dm_output = [0]  # Initial value of the modulated signal
 prev_sample = 0
 for sample in message_signal:
     if sample > prev_sample:
-        encoded_signal.append(1)
+        encoded_signal.append(1) 
         dm_output.append(prev_sample + delta)
     else:
         encoded_signal.append(0)
@@ -60,6 +59,7 @@ plt.legend()
 plt.grid()
 plt.tight_layout()
 plt.show()
+```
 
 
 ### OUTPUT WAVEFORM:
