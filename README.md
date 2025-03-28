@@ -1,4 +1,6 @@
 # Exp:4 Delta-Modulation
+# Name: Keerthana S
+# Reg No: 212223060122
 ### AIM:
 
 To perform Delta-Modulation using python
