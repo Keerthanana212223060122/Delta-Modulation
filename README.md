@@ -69,3 +69,8 @@ plt.show()
 ### RESULT:
 
 Thus the delta modulation signal is performed using python
+
+### Hardware experiment output waveform:
+
+![WhatsApp Image 2025-04-24 at 19 49 05_f397de5b](https://github.com/user-attachments/assets/def7938d-a015-42f3-8efc-bbfb133cf3f2)
+
